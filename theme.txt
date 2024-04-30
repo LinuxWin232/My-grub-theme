@@ -79,3 +79,18 @@ height= 40
 		file = "menu.png"
 }
 
++ hbox{ 
+    left = 30%
+    top = 95%
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_HOTKEY_TIP@" color = "#808080" align = "left"} 
+}
+
++ hbox{ 
+    left = 90%
+    top = 5 
+    width = 10%
+    height = 25
+    + label {text = "@VTOY_MEM_DISK@" color = "red" align = "left"} 
+}
